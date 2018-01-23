@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen
+/*{
+p.bodyText {font-family:verdana, arial, sans-serif;}
+}*/
+
+@media print
+{
+p.bodyText {font-family:georgia, times, serif;}
+	.d-print-inline{display: inline;}
+.row .d-print-inline {display: inline;}
+
+
+.navbar-default {display: none;}
+
+.d-print-inline{display: inline;}
+	.d-print-none {display: none;}
+}

@@ -1,0 +1,441 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*nUnused custom css*/
+
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+ 
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+/*-----------------------------------
+         Owl content styling
+-----------------------------------*/
+.slide-content {
+  position: absolute;
+  right: 0;
+  top: 35%;
+  width: 45%;
+  height: 300px;
+  padding: 70px 70px 0;
+  text-align: center;
+/*   transform: translate(-50%,-50%) rotate3d(1, 0, 0, -90deg); */
+  transform-origin: top;
+  background-color: rgba(0,0,0,.4);
+/*   -webkit-clip-path: polygon(0 0 , 100% 0 , 90% 100% , 10% 100% ); */
+  color: #fff;
+/*   font-size: 2em; */
+}
+.slide-content, 
+.slide-content h3,
+.slide-content h2,
+.slide-content p,
+.slide-content h3:before,
+.slide-content h3:after {
+  transition: all 2s ease;
+}
+.slide-content h3 {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.95);
+/*   transform: translate3d(-100%, 0,1px); */
+}
+.slide-content h3:before,
+.slide-content h3:after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  top: 49%;
+  background-color: #f1f1f1;
+}
+.slide-content h3:before {
+  left: -90px;
+/*   transform: translate3d(-700%, 0, 1px) */
+}
+.slide-content h3:after {
+  right: -90px;
+/*   transform: translate3d(700%, 0, 1px) */
+}
+.slide-content h2 {
+  color: #f9f9f9;
+/*   font-size: 1.3em; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+/*   transform: translate3d(100%, 0,1px); */
+}
+.slide-content p {
+/*   font-size: .6em; */
+/*   padding: 0 190px; */
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: rgba(255,255,255,.8);
+/*   transform: translate3d(0, 400%,1px); */
+}
+/*------------------Masthead - BLOG - Styles----------------------*/
+header.masthead {
+  margin-bottom: 0px;
+  background: no-repeat center center;
+  background-color: #777777;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+	padding-top: 70px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	color: #070707;
+}
+    @media only screen and (min-width: 768px) {
+      header.masthead .page-heading,
+      header.masthead .post-heading,
+      header.masthead .site-heading {
+	padding-top: 100px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 50px;
+} }
+  header.masthead .page-heading,
+  header.masthead .site-heading {
+    text-align: center; }
+    header.masthead .page-heading h1,
+    header.masthead .site-heading h1 {
+      font-size: 50px;
+      margin-top: 0; }
+    header.masthead .page-heading .subheading,
+    header.masthead .site-heading .subheading {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.1;
+      display: block;
+      margin: 10px 0 0;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    @media only screen and (min-width: 768px) {
+      header.masthead .page-heading h1,
+      header.masthead .site-heading h1 {
+        font-size: 80px; } }
+  header.masthead .post-heading h1 {
+    font-size: 35px; }
+  header.masthead .post-heading .meta,
+  header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block; }
+  header.masthead .post-heading .subheading {
+	font-size: 24px;
+	font-weight: 200;
+	margin: 10px 0 30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+  header.masthead .post-heading .meta {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Lora', 'Times New Roman', serif; }
+    header.masthead .post-heading .meta a {
+      color: white; }
+  @media only screen and (min-width: 768px) {
+    header.masthead .post-heading h1 {
+      font-size: 55px; }
+    header.masthead .post-heading .subheading {
+      font-size: 30px; } }
+div.user-menu-container {
+	z-index: 10;
+	background-color: #fff;
+	margin-top: 20px;
+	background-clip: padding-box;
+	opacity: 0.97;
+	filter: alpha(opacity=97);
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+div.user-menu-container .btn-lg {
+	padding: 0px 12px;
+}
+div.user-menu-container h4 {
+	font-weight: 300;
+	color: #8b8b8b;
+}
+div.user-menu-container a, div.user-menu-container .btn {
+	transition: 1s ease;
+}
+div.user-menu-container .thumbnail {
+	width: 100%;
+	min-height: 200px;
+	border: 0px!important;
+	padding: 0px;
+	border-radius: 0;
+	border: 0px!important;
+}
+/* -- Vertical Button Group -- */
+div.user-menu-container .btn-group-vertical {
+	display: block;
+}
+div.user-menu-container .btn-group-vertical>a {
+	padding: 20px 25px;
+	background-color: #CFC4C4;
+	color: white;
+	border-color: #fff;
+}
+div.btn-group-vertical>a:hover {
+	color: white;
+	border-color: white;
+}
+div.btn-group-vertical>a.active {
+	background: #000000;
+	box-shadow: none;
+	color: white;
+}
+/* -- Individual button styles of vertical btn group -- */
+div.user-menu-btns {
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+div.user-menu-btns div.btn-group-vertical>a.active:after {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -13px;
+	border-left: 0;
+	border-bottom: 13px solid transparent;
+	border-top: 13px solid transparent;
+	border-left: 10px solid #46D8D2;
+}
+/* -- The main tab & content styling of the vertical buttons info-- */
+div.user-menu-content {
+	color: #323232;
+}
+ul.user-menu-list {
+	list-style: none;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding: 10px;
+	border: 1px solid #eee;
+}
+ul.user-menu-list>li {
+	padding-bottom: 8px;
+	text-align: center;
+}
+div.user-menu div.user-menu-content:not(.active) {
+	display: none;
+}
+/* -- The btn stylings for the btn icons -- */
+.btn-label {
+	position: relative;
+	left: -12px;
+	display: inline-block;
+	padding: 6px 12px;
+	background: rgba(0,0,0,0.15);
+	border-radius: 3px 0 0 3px;
+}
+.btn-labeled {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+/* -- Custom classes for the snippet, won't effect any existing bootstrap classes of your site, but can be reused. -- */
+
+.user-pad {
+	padding: 20px 25px;
+}
+.no-pad {
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.user-details {
+	background: #eee;
+	min-height: 333px;
+}
+.user-image {
+	max-height: 200px;
+	overflow: hidden;
+}
+.overview h3 {
+	font-weight: 300;
+	margin-top: 15px;
+	margin: 10px 0 0 0;
+}
+.overview h4 {
+	font-weight: bold!important;
+	font-size: 40px;
+	margin-top: 0;
+}
+.view {
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.view p {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	/*background: rgba(70, 216, 210, 0.44);*/
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	display: none;
+	text-align: center;
+	color: #fff !important;
+	z-index: 2;
+}
+.caption a {
+	padding-right: 10px;
+	color: #fff;
+}
+.info {
+	display: block;
+	padding: 10px;
+	background: #eee;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: right;
+}
+.info p, .stats p {
+	margin-bottom: 0;
+}
+.stats {
+	display: block;
+	padding: 10px;
+	color: white;
+}
+.share-links {
+	border: 1px solid #eee;
+	padding: 15px;
+	margin-top: 15px;
+}
+.square, .btn {
+	border-radius: 0px!important;
+}
+/* MASTHEAD NV */
+.masthead-nav > li {
+    display: inline-block;
+}
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    /* IE8 proofing */
+    color: rgba(255, 255, 255, .95);
+    border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
+    background-color: transparent;
+    color: #fff;
+    border-bottom-color: #fff;
+}
+.masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+.navbar-brand {
+    float: left;
+}
+.masthead-nav {
+    float: right;
+}
+}
